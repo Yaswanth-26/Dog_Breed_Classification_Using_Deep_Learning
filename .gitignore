@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_metadata
+
+# Data files - we don't want to upload large data files to git
+cropped_images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tif
+*.tiff
+*.h5
+*.npy
+*.npz
+*.pkl
+
+# Model files
+saved_models/
+*.h5
+*.model
+*.keras
+*.weights
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vscode/
+.code-workspace
+
+# Generated files
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Local History for Visual Studio
+.localhistory/
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+logs/
+
+# TensorFlow logs
+logs/
+tensorboard_logs/
